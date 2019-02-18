@@ -228,4 +228,7 @@ a > img {
     .item8 > li {
         width: 100%
     }
+    .main-image {
+        margin: auto auto;
+    }
 }
