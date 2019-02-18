@@ -16,6 +16,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #58180D;
 }
 
+a {
+    text-decoration: none;
+    margin: 1.0em 1.0em;
+}
+
 footer {
     text-align: center;
     padding: 0.2em;
@@ -48,10 +53,6 @@ footer {
     /* background-color: #2196F3; */
 }
 
-section {
-    /* border: 2px solid rgb(255, 0, 0); */
-}
-
 .creation-steps {
     display: flex;
     flex-direction: row;
@@ -62,6 +63,10 @@ section {
 .creation-steps > li {
     width: 33%;
     height: 33%;
+}
+
+.step {
+    color: #58180D;
 }
 
 .item1 {
@@ -156,11 +161,6 @@ li > a {
 
 h1 {
     text-align: center;
-}
-
-a {
-    text-decoration: none;
-    margin: 1.0em 1.0em;
 }
 
 li {
