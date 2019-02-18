@@ -1,0 +1,17 @@
+/* Fonts from https://www.reddit.com/r/UnearthedArcana/comments/3vpphx/5e_font_package_embeddable_cc_edition/ */
+@font-face {
+    font-family: 'MrsEavesSmallCaps';
+    src: url("../fonts/Mr\ Eaves\ Small\ Caps.otf") format("opentype");
+    font-family: 'BookInsanity';
+    src: url("../fonts/Bookinsanity.otf") format("opentype");
+}
+
+body {
+    background-image: url("../img/background.jfif");
+    font-family: 'BookInsanity', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'MrsEavesSmallCaps', serif;
+    color: #58180D;
+}
