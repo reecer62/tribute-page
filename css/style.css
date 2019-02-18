@@ -145,6 +145,7 @@ footer {
     display: flex;
     flex-direction: row;
     margin: 2%;
+    border-bottom: 2px solid #c9ad6a;
 }
 
 .item6, .item7, .item8 {
