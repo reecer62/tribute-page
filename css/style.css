@@ -118,7 +118,8 @@ section {
 }
 
 .item6 > li:hover {
-    background-color: #c9ad6a;
+    /* Maybe add a gradient from center of image */
+    background-color: rgba(201, 173, 106, 0.3);
 }
 
 .item7 > li {
@@ -130,7 +131,7 @@ section {
 }
 
 .item7 > li:hover {
-    background-color: #c9ad6a;
+    background-color: rgba(201, 173, 106, 0.3);
 }
 
 .item8 > li {
@@ -142,7 +143,7 @@ section {
 }
 
 .item8 > li:hover {
-    background-color: #c9ad6a;
+    background-color: rgba(201, 173, 106, 0.3);
 }
 
 i {
@@ -159,11 +160,12 @@ h1 {
 
 a {
     text-decoration: none;
+    margin: 1.0em 1.0em;
 }
 
-/* li {
-    border: 2px solid rgb(255, 0, 0);
-} */
+li {
+    margin: 0.1em 0.1em;
+}
 
 a > img {
     max-height: 200px;
