@@ -72,6 +72,10 @@ footer {
     position: relative;
 }
 
+.hero-image > img {
+    display: block;
+}
+
 .item1 > h1 {
     text-align: center;
     position: absolute;
