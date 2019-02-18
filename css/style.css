@@ -83,6 +83,20 @@ footer {
     font-size: 3em;
 }
 
+.creation-steps > li {
+    border-right: 2px solid rgba(201, 173, 106, 0.5);
+    margin: 0;
+    padding: 0;
+}
+
+.creation-steps > li:last-child {
+    border: none;
+}
+
+.creation-steps > li:hover {
+    background-image: linear-gradient(rgba(201, 173, 106, 0.6), rgba(237, 228, 197, 0.3));
+}
+
 .item3 > figure {
     width: 200px;
     height: 100px;
