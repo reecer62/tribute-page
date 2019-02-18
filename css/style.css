@@ -127,18 +127,21 @@ footer {
     width: 200px;
     height: 100px;
     object-fit: cover;
+    margin-right: 1%;
 }
 
 .item4 > figure {
     width: 200px;
     height: 100px;
     object-fit: cover;
+    margin-right: 1%;
 }
 
 .item5 > figure {
     width: 200px;
     height: 100px;
     object-fit: cover;
+    margin-right: 1%;
 }
 
 .item3, .item4, .item5 {
