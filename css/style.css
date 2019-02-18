@@ -206,3 +206,26 @@ a > img {
     max-height: 200px;
     max-width: 200px;
 }
+
+@media screen and (max-width: 768px) {
+    .header-top {flex-direction: column;}
+    .nav-item-list {flex-direction: column;}
+    .hero-image {
+        display: none;
+    }
+    .item1 > h1 {
+        position: inherit;
+        color: #58180D;
+        top: 25%;
+    }
+    .main-image {float: none;}
+    .item6 > li {
+        width: 100%;
+    }
+    .item7 > li {
+        width: 100%;
+    }
+    .item8 > li {
+        width: 100%
+    }
+}
