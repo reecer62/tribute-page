@@ -20,3 +20,95 @@ footer {
     text-align: center;
     padding: 0.2em;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: (auto auto auto auto);
+    grid-template-areas:
+    "item1"
+    "item2"
+    "item3"
+    "item4"
+    "item5"
+    "item6"
+    "item7"
+    "item8";
+    background-color: #2196F3;
+}
+
+section {
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.creation-steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.creation-steps > li {
+    width: 33%;
+    height: 33%;
+}
+
+.item3 > figure {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.item4 > figure {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.item5 > figure {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.item3, .item4, .item5 {
+    display: flex;
+    flex-direction: row;
+}
+
+.item6, .item7, .item8 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item6 > li {
+    text-align: center;
+    width: 33%;
+    height: 33%;
+}
+
+.item7 > li {
+    text-align: center;
+    width: 33%;
+    height: 33%;
+}
+
+.item8 > li {
+    text-align: center;
+    width: 33%;
+    height: 33%;
+}
+
+li > a {
+    display: block;
+}
+
+li {
+    border: 2px solid rgb(255, 0, 0);
+}
+
+a > img {
+    max-height: 200px;
+    max-width: 200px;
+}
