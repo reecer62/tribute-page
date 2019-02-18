@@ -50,7 +50,6 @@ footer {
     "item6"
     "item7"
     "item8";
-    /* background-color: #2196F3; */
 }
 
 .creation-steps {
@@ -116,40 +115,51 @@ footer {
 
 .item6 > li {
     text-align: center;
-    width: 33%;
-    height: 33%;
+    width: 30%;
+    height: 30%;
     border: 2px solid #c9ad6a;
     border-radius: 2%;
 }
 
 .item6 > li:hover {
-    /* Maybe add a gradient from center of image */
-    background-color: rgba(201, 173, 106, 0.3);
+    background-image: radial-gradient(circle, rgba(201, 173, 106, 0.6), rgba(237, 228, 197, 0.3));
 }
 
 .item7 > li {
     text-align: center;
-    width: 33%;
-    height: 33%;
+    width: 30%;
+    height: 30%;
     border: 2px solid #c9ad6a;
     border-radius: 2%;
 }
 
 .item7 > li:hover {
-    background-color: rgba(201, 173, 106, 0.3);
+    background-image: radial-gradient(circle, rgba(201, 173, 106, 0.6), rgba(237, 228, 197, 0.3));
 }
 
 .item8 > li {
     text-align: center;
-    width: 33%;
-    height: 33%;
+    width: 30%;
+    height: 30%;
     border: 2px solid #c9ad6a;
     border-radius: 2%;
 }
 
 .item8 > li:hover {
-    background-color: rgba(201, 173, 106, 0.3);
+    background-image: radial-gradient(circle, rgba(201, 173, 106, 0.6), rgba(237, 228, 197, 0.3));
 }
+
+/* #races {
+    margin: auto 3%;
+}
+
+#classes {
+    margin: auto 3%;
+}
+
+#backgrounds {
+    margin: auto 3%;
+} */
 
 i {
     color: #955229;
@@ -164,7 +174,7 @@ h1 {
 }
 
 li {
-    margin: 0.1em 0.1em;
+    margin: 1em 0.3em;
 }
 
 a > img {
